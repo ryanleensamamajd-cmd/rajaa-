@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+  margin:0;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  background:#ffc0cb;
+  font-family:-apple-system,BlinkMacSystemFont,Arial;
+  text-align:center;
+}
+@keyframes beat{
+  0%{transform:scale(1);}
+  50%{transform:scale(1.3);}
+  100%{transform:scale(1);}
+}
+.heart{
+  display:inline-block;
+  animation:beat 1s infinite;
+}
+</style>
+</head>
+<body>
+
+<h1>I love Rajaa sooo much يا ببو صغير <span class="heart">❤️</span></h1>
+<p style="font-size:20px;margin-top:20px;">
+ابنك ريان اللي هو احسن واحد من ولادك
+</p>
+
+</body>
+</html>
